@@ -1,0 +1,14 @@
+
+dict
+	key string "hello there"
+	value dict
+		key string "one"
+		value integer 2
+		key string "two"
+		value array
+			bool true
+			bool false
+			none
+		end
+	end
+end
