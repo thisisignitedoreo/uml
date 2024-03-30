@@ -13,8 +13,7 @@ library thing:
 
 - function `parse(text)`:
 
-    parses krml to python object
-    
+    parses krml to python object<br/>
     throws ValueError on error
     
     arguments:
@@ -24,20 +23,15 @@ library thing:
     returns: any
 - function `serialize(object, compact=False, indent="  ")`:
     
-    parses python object to krml
-    
-    throws ValueError on error
-    
-    no newlines/indents if compact
-    
+    parses python object to krml<br/>
+    throws ValueError on error<br/>
+    no newlines/indents if compact<br/>
     if not compact indent code with indent
     
     arguments:
       
       object: any
-      
       compact: bool
-      
       indent: str
     
     returns: str
